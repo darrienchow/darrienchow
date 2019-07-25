@@ -1,4 +1,4 @@
-  @media (min-width: 413px) and (max-width: 515px) {
+  @media only screen (min-width : 413px) and (max-width : 515px){
 
 	
 	.navbar{
@@ -8,7 +8,7 @@
 			position: fixed;
 			z-index: 3;
 			visibility: visible;
-			
+			background:red;
 
 		}
 		.menu {
