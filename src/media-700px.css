@@ -1,4 +1,4 @@
- @media (min-width: 413px) and (max-width: 515px) {
+  @media (min-width: 413px) and (max-width: 515px) {
 
 	
 	.navbar{
@@ -62,8 +62,8 @@
 		
 		  .mobile-btn {
 			display: inline-block;
-			margin-left:21rem;
-			font-size: 45px; 
+			margin-left:15rem;
+			font-size: 30px; 
 			text-align: right;
 			margin-right: -520px;
 			margin-top: 1rem;
@@ -321,4 +321,4 @@
 }
 
 
- 
+  
