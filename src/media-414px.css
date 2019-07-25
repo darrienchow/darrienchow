@@ -8,7 +8,7 @@
 				position: fixed;
 				z-index: 3;
 				visibility: visible;
-				background: red;
+				
 
 			}
 			.menu {
@@ -323,7 +323,7 @@
 		} 
 
 
-		@media screen and (min-width: 376px) and (max-width: 414px){
+@media screen and (min-width: 376px) and (max-width: 414px){
 
 	
 			.navbar{
@@ -333,7 +333,7 @@
 					position: fixed;
 					z-index: 3;
 					visibility: visible;
-					background: red;
+				
 	
 				}
 				.menu {
@@ -645,4 +645,4 @@
 			  }
 			
 			
-			} 
+		} 
