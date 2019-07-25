@@ -1,0 +1,217 @@
+/* Project section*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400&display=swap');
+
+/*animated text*/
+.intro-text
+{
+  margin-left: 5%;
+  width: 100%;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.5s all ease-in-out;
+}
+
+
+
+.intro-text p
+{
+  text-align: center;
+  position:absolute;
+  font-size: 20px;
+  padding-left: 100px;
+  margin-top: 250px;
+  margin-left: 200px;
+  margin-right: 500px;
+}
+
+.intro-text h3
+{
+  margin-top: 100px;
+margin-left: 285px;
+padding: 10px;
+}
+
+
+
+.intro-text2
+{
+  margin-left: 50px;
+  width: 70%;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.5s all ease-in-out;
+}
+
+
+
+.intro-text2 p
+{
+  text-align: center;
+  position:absolute;
+  font-size: 15px;
+  padding-left: 100px;
+  margin-top: 250px;
+  margin-left: 200px;
+  margin-right: 500px;
+}
+
+.intro-appear
+{
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.intro-appear2
+{
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+
+
+
+/*animated title*/
+
+.intro-title
+{
+  margin-left: 20px;
+  width: 70%;
+  opacity: 1;
+  transform: translateY(5px);
+  transition: 0.5s all ease-in-out;
+}
+
+.intro-title2
+{
+  text-align:center;
+  letter-spacing: 5px;
+  margin-bottom: 80px;
+  padding-top: 40px;
+  
+  opacity: 1;
+  transform: translateY(5px);
+  transition: 0.5s all ease-in-out;
+}
+
+#contact{
+  background: rgb(19, 19, 19);
+  height:100%;
+  padding-top: 100px;
+  
+}
+
+.form
+{
+  
+  background:white;
+  
+  font-size: 20px;
+  padding: 100px 200px 100px 100px;
+  margin: auto auto;
+  border-radius: 20px;
+  position: relative;
+}
+
+.contact-us{
+  
+  height: 100vh;
+  position: relative;
+  padding:50px;
+  border-radius: 10px;
+  margin: 100px auto;
+}
+
+.form{
+  max-width: 900px;
+  width: 100%;
+  padding: 5px 25px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+
+.form,
+.form-group{
+  
+  margin-bottom: 15px;
+  
+}
+
+.form-group input
+{
+  font-size: 20px;
+  width: 100%;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.664);
+  padding: 40px 0 10px 0;
+}
+
+.form-group textarea
+{
+  margin-top: 30px;
+  width: 100%;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.664);
+  font-size: 20px;
+}
+
+
+.form-group.name_email
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group.name_email input{
+  width: 48%;
+}
+
+.form-group textarea
+{
+  height:100px;
+  resize:none;
+}
+
+.btn{
+  margin-top:30px;
+  padding-top:20px;
+}
+
+.btn a{
+  display: block;
+  border: 2px solid rgb(0, 0, 0);
+  width: 200px;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  letter-spacing: 5px;
+  transition: all 0.2s linear;
+}
+
+.btn a:hover{
+background: black;
+color: white;
+}
+
+::webkit-input-placeholder{
+  color: black;
+}
+::moz-input-placeholder{
+  color: black;
+}
+
+::ms-input-placeholder{
+  color: black;
+}
+
+#projects
+{
+  width:100%;
+  height: 100vh;
+  background: linear-gradient(57deg, #fff0, #fff0);
+  clip-path: polygon(0% 0%, 100%);
+}
