@@ -10,8 +10,11 @@
 			position: fixed;
 			z-index: 3;
 			visibility: visible;
-		
 			
+		}
+
+		.close{
+			visibility: visible;
 		}
 		.menu {
 			position: absolute;
@@ -95,9 +98,53 @@
 			opacity: 1;
 		  }
 
-		#icons img{
+#icons img{
 			margin-left: -1.5rem;
-		}  
+}  
+
+		
+#icons a{
+	padding-top:40px;
+	position: absolute;
+	margin-left: -30px;
+}
+#icons i{
+	position: absolute;
+	margin-top:5px;
+	margin-left: 80px;
+}
+
+#button p{
+	font-size: 13px;
+}
+
+.blue-container{
+	
+	padding-bottom: 1000px;
+	z-index: -7;
+}
+
+.about{
+	margin-left: 10px;
+	padding-left:100px;
+	font-size:15px;
+	
+}
+
+.skills{
+	margin-top:10px;
+	margin-left: -60px;
+	padding-right:100px;
+	font-size:15px;
+}
+
+
+.skills2{
+	margin-top: 50px;
+	margin-left: 40px;
+	padding-right:100px;
+	font-size:15px;
+}
   
 .intro-text
 { 
@@ -115,7 +162,7 @@
   text-align: center;
   position:absolute;
   font-size: 15px;
-  margin-top: 130px;
+  margin-top: 250px;
   margin-right:-100px;
   margin-left: -100px;
  
@@ -123,29 +170,12 @@
 }
 
 
-.intro-text2
-{
-	width: -80%;
-	opacity: 0;
-	transform: translateY(50px);
-	transition: 0.5s all ease-in-out;
-}
 
 
-
-.intro-text2 p
-{
-	text-align: center;
-	position:absolute;
-	font-size: 15px;
-	margin-top: 150px;
-	margin-right:-100px;
-	margin-left: -100px;
-}
 
 .intro-text h3{
-	margin-left: -10px;
-	margin-top: 30px;
+	margin-left: 45px;
+	margin-top: 150px;
 	
 }
 
@@ -181,18 +211,59 @@
   
 
 #contact{
-	background: rgb(19, 19, 19);
-	height:100%;
-	padding-top: 100px;
-	margin-left: -1.5rem;
+	background: #252934;
+	z-index: -7;
+	position: relative;
+	background: #252934;
+	margin-top: 600px;
+	margin-bottom:-9px;
 	
-  }
+}
 
-  .contact-us h3{
-	margin-left: -6rem;
+.contact-title{
+	margin-top: -500px;
+	padding-top:-50px;
+	margin-bottom: -500px;
+	
+}
+
+  
+.contact-us{
+	
+	height: 50vh;
+	position: relative;
+	margin: 100px auto;
+}
+
+.blue-container{
+	
+	padding-bottom: 1000px;
+	z-index: -7;
+}
+
+.about{
+	margin-left: 10px;
+	padding-left:80px;
+	font-size:15px;
+	
+}
+
+.skills{
+	margin-top:10px;
+	margin-left: -60px;
+	padding-right:50px;
+	font-size:15px;
+}
+
+
+.skills2{
+	margin-top: -30px;
+	margin-left: 40px;
+	padding-right:50px;
+	font-size:15px;
 }
   
-  .form
+  /* .form
   {
 	
 	background:white;
@@ -202,15 +273,7 @@
 	border-radius: 20px;
 	position: relative;
   }
-  
-  .contact-us{
-	
-	height: 100vh;
-	position: relative;
-	padding:50px;
-	border-radius: 10px;
-	margin: 100px auto;
-  }
+
   
   .form{
 	max-width: 900px;
@@ -264,10 +327,18 @@
 	height:100px;
 	resize:none;
   }
-  
+   */
+
   .btn{
-	margin-top:30px;
+	margin-top:-350px;
 	padding-top:20px;
+	margin-bottom: -250px;
+  }
+
+  .btn2{
+	margin-top:-350px;
+	padding-top:20px;
+	margin-bottom: -250px;
   }
   
   .btn a{
@@ -300,8 +371,28 @@
   }
 
 
+	.up-arrow i{
+		margin-left:155px;
+	}
 }
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -422,10 +513,9 @@
   text-align: center;
   position:absolute;
   font-size: 15px;
-  margin-top: 130px;
+  margin-top: 250px;
   margin-right:-100px;
   margin-left: -100px;
- 
   
 }
 
@@ -451,8 +541,8 @@
 }
 
 .intro-text h3{
-	margin-left: -10px;
-	margin-top: 30px;
+	margin-left: 45px;
+	margin-top: 150px;
 	
 }
 
@@ -488,18 +578,31 @@
   
 
 #contact{
-	background: rgb(19, 19, 19);
-	height:100%;
-	padding-top: 100px;
-	margin-left: -1.5rem;
+	background: #252934;
+	z-index: -7;
+	position: relative;
+	background: #252934;
+	margin-top: 600px;
+	margin-bottom:-9px;
 	
-  }
+}
 
-  .contact-us h3{
-	margin-left: -6rem;
+.contact-title{
+	margin-top: -500px;
+	padding-top:-50px;
+	margin-bottom: -500px;
+	
+}
+
+  
+.contact-us{
+	
+	height: 50vh;
+	position: relative;
+	margin: 100px auto;
 }
   
-  .form
+  /* .form
   {
 	
 	background:white;
@@ -510,14 +613,7 @@
 	position: relative;
   }
   
-  .contact-us{
-	
-	height: 100vh;
-	position: relative;
-	padding:50px;
-	border-radius: 10px;
-	margin: 100px auto;
-  }
+
   
   .form{
 	max-width: 900px;
@@ -570,12 +666,21 @@
   {
 	height:100px;
 	resize:none;
+  } */
+  
+
+  .btn{
+	margin-top:-350px;
+	padding-top:20px;
+	margin-bottom: -250px;
+  }
+
+  .btn2{
+	margin-top:-350px;
+	padding-top:20px;
+	margin-bottom: -250px;
   }
   
-  .btn{
-	margin-top:30px;
-	padding-top:20px;
-  }
   
   .btn a{
 	display: block;
